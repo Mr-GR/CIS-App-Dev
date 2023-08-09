@@ -3,7 +3,7 @@ import json
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
-
+from typing import Union
 #emojis are in the following link: https://www.webfx.com/tools/emoji-cheat-sheet/
 
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
